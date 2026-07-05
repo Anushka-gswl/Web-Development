@@ -4,6 +4,7 @@
     border : border-box;
 }
 
+/* Header */
 .navbar_belt{
     background-color : #131921;
     height : 60px;
@@ -73,10 +74,14 @@
     border : none;
     justify-content : center;
     text-align : center;
-    background-color : #f3f3f3;
-    color : #4d5056;
-    padding : 10px;
+    background-color : #f3efef;
+    color : #44464b;
+    padding : 5px;
     font-size : 0.75rem;
+}
+
+.search_category_select:hover{
+    background-color : #d5d5e0;
 }
 
 .search_icon i{
@@ -91,7 +96,7 @@
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     height : 40px;
-    width : 40px;
+    width : 45px;
     border : none;
 }
 
@@ -196,12 +201,13 @@
 }
 
 .category{
-    margin-left: 10px;
-    font-size: 0.95rem;
+    margin-left: 15px;
+    font-size: 0.9rem;
     font-weight: bold;
     display: flex;
     align-items: center;
     height : 30px;
+    padding-right : 5px;
 }
 
 .menu_icon{
@@ -209,14 +215,35 @@
     margin-right: 5px;
 }
 
-
 .navbar2_links a{
     text-decoration : none;
     color : white;
     margin-left : 10px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     padding : 5px;
     align-items : center;
 }
 
+/* Hero Section */
+.hero{
+    background-image: url(hero_section.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.hero_message{
+    background-color : #f3f3f3;
+    color : #131921;
+    font-size : 0.9rem;
+    padding : 10px;
+    text-align : center;
+    margin-right: 15px;
+    margin-left : 15px;
+}
+
+.hero_message a{
+    text-decoration : none;
+    color : #0073bb;
+}
