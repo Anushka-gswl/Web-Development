@@ -14,10 +14,14 @@
     color : white;
 }
 
-.navbar_logo img{
-    height : 35px;
-    margin: 5px 5px 5px 10px;
+.navbar_logo{
+    margin-left: 5px;
     padding-top : 5px;
+}
+
+.navbar_logo img{
+    height : 30px;
+    margin : 5px;
 }
 
 .border{
@@ -182,3 +186,37 @@
 .cart_icon{
     font-size : 1.5rem;
 }
+
+.navbar2{
+    background-color : #232f3e;
+    height : 40px;
+    display: flex;
+    color : white;
+    align-items : center;
+}
+
+.category{
+    margin-left: 10px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height : 30px;
+}
+
+.menu_icon{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+
+.navbar2_links a{
+    text-decoration : none;
+    color : white;
+    margin-left : 10px;
+    font-size: 0.95rem;
+    padding : 5px;
+    align-items : center;
+}
+
+
