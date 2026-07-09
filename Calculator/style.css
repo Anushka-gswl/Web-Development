@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcy{
+    width : 40%;
+    border: 2px solid brown;
+    border-radius: 5px;
+    margin: auto;
+}
