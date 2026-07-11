@@ -11,7 +11,7 @@ body{
 .calcy{
     width : 40%;
     min-height : 400px;
-    border: 2px solid brown;
+    border: 2px solid rgb(112, 43, 43);
     border-radius: 5px;
     margin: auto;
 }
